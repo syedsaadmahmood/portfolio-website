@@ -19,30 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
+       After graduating with a bachelor degree in{" "}
+        <span className="font-medium">Computer Science</span>. I have worked in the industry for 4 years before becoming a full-time freelancer{" "}
+        My favorite part of programming is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        feeling of finally figuring out a solution to a problem.
+        On the frontend, I am skilled in <span className="font-medium">JavaScript, TypeScript, React, Vue, and Angular</span>, excelling at converting designs into pixel-perfect HTML and building fast, SEO-optimized web applications with <span className="font-medium">NextJS and NuxtJS</span>.
+        My backend expertise includes building robust systems with <span className="font-medium">Node.js, Express.js, Nest.js, Python, Django, FastAPI and Flask</span>, with experience in both <span className="font-medium">SQL and NoSQL</span> databases.
+        I have also developed hybrid mobile apps using the <span className="font-medium">Ionic Framework</span> and worked on <span className="font-medium">Electron.js</span> for desktop application development. Additionally, I am experienced in unit and end-to-end testing using <span className="font-medium">Jest and Cypress</span>, and have DevOps experience with <span className="font-medium">AWS, Azure, Docker, and Nginx</span>. I am always looking to learn new technologies
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      I bring a unique combination of technical expertise and creative flair to every project, whether it's a <span className="font-medium">SaaS application, CMS, e-commerce platform, dashboard, desktop application, or mobile app</span>.
       </p>
     </motion.section>
   );
