@@ -30,7 +30,7 @@ export default function About() {
       </p>
 
       <p>
-      I bring a unique combination of technical expertise and creative flair to every project, whether it's a <span className="font-medium">SaaS application, CMS, e-commerce platform, dashboard, desktop application, or mobile app</span>.
+      I bring a unique combination of technical expertise and creative flair to every project, whether it's a <span className="font-medium">SaaS application, e-commerce platform, dashboard, desktop, or mobile applications</span>.
       </p>
     </motion.section>
   );

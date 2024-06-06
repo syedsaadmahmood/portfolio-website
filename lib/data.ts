@@ -1,10 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import romingo from "@/public/romingo.png";
+import dpa from "@/public/dpa.png";
+import sstk from "@/public/sstk.png";
+import futbala from "@/public/futbala.png";
+import clairk from "@/public/clairk.png";
+import circadiance from "@/public/circadiance.jpeg";
+import ideawake from "@/public/ideawake.png";
 
 export const links = [
   {
@@ -35,73 +38,119 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BS in Computer Science | FAST-NUCES",
+    location: "Lahore, Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Did graduation in Computer Science. I learned programming, data structures, algorithms, databases and software engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2013 - 2017",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer | Emblem Technologies",
+    location: "Lahore, Pakistan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Exhibited hands-on programming skills in JavaScript, React, and Angular. Actively participated in the architecture, design, and implementation of backend features using Node.js and Django Python. Ensured the quality and security of client code by identifying bugs and weaknesses using approved troubleshooting methods, and developed robust solutions that satisfied client requirements for functionality, scalability, and performance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2019",
+  },
+  {
+    title: "Senior Software Engineer | SSI",
+    location: "Lahore, Pakistan",
+    description:
+      "I have proved expertise in coding with JavaScript, and have used frameworks such as React, Vue, Angular, Nuxt.js, and Next.js effectively. For efficient management of application state, I have used technologies like Redux, Vuex, and NgRx. Additionally, I have built user interfaces using HTML, CSS, Bootstrap, Material UI, and Tailwind CSS. I have actively participated in backend development using Django Python and Node.js, primarily utilizing the ExpressJS and NestJS frameworks.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Developer | Upwork",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Worked with top clients from Switzerland, Australia, Italy, and the USA. Since 2021, I have earned over $100,000, completed numerous projects, and logged around 4,000 hours of work. My dedication to client satisfaction is shown in the many 5-star reviews on my profile. I have strong client communication skills and consistently deliver high-quality work. I have earned the Top Rated Plus badge, placing me in the top 3% of freelancers on Upwork.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - Current",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Romingo",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a Full Stack Developer on this pet-friendly hotel booking platform on Listing Page, Detail Page, Booking Page, Mobile Responsiveness, and Admin Panel.",
+    tags: ["React", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind", "Prisma", "GraphQL"],
+    imageUrl: romingo,
   },
   {
-    title: "rmtDev",
+    title: "Digital Policy Alert",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked as a Full Stack Developer on this monitoring web app. It shows the latest digital policy news and updates. It has features like Graphs, Filter, and Auth.",
+    tags: ["Vue", "Nuxt.js", "Tailwind CSS", "Vuex", "Python", "Django", "PostgreSQL"],
+    imageUrl: dpa,
   },
   {
-    title: "Word Analytics",
+    title: "Simply Stakeholder",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I collaborated with Simply Stakeholders to create SaaS stakeholder management software with features of Listing, Graphs, Reporting, Forms and, Socket.io.",
+    tags: ["Angular", "TypeScript", "Material UI", "Jest", "Azure", "Progressive Wep App (PWA)"],
+    imageUrl: sstk,
+  },
+  {
+    title: "CLaiRK | Generative AI Chatbot",
+    description:
+      "CLaiRK is a comprehensive tool that will help navigate the rapidly changing landscape of artificial intelligence rules. It is a chatbot that can answer questions about AI rules and regulations.",
+    tags: ["Generative AI", "Open AI", "LLM", "RAG", "Vue", "FastAPI"],
+    imageUrl: clairk,
+  },
+  {
+    title: "Futbala",
+    description:
+      "Futbala is a fantasy football management experience. I worked as a sole Frontend Developer for developing the Minimum viable product (MVP) which I completed in 4 months.",
+    tags: ["Vue", "TypeScript", "tailwind CSS", "Pinia", "Minimum viable product (MVP)"],
+    imageUrl: futbala,
+  },
+  {
+    title: "Circadiance",
+    description:
+      "Circadiance, a Synergy Cloud software allows clinicians to remotely monitor infants. I worked as a Full Stack Developer on features like data management, Reporting, and DB architecture.",
+    tags: ["Angular", "TypeScript", "Python", "Django", "Celery", "PostgreSQL", "Docker", "AWS"],
+    imageUrl: circadiance,
+  },
+  {
+    title: "Ideawake",
+    description:
+      " I worked as a Full Stack Developer in making the idea mature. It is an easy-to-use, highly configurable idea management platform that makes it easy to capture, evaluate, and take action on ideas.",
+    tags: ["React", "TypeScript", "Node.js", "Nest.js", "PostgreSQL", "AWS"],
+    imageUrl: ideawake,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Vue",
+  "Angular",
   "Next.js",
+  "Nuxt.js",
   "Node.js",
   "Git",
   "Tailwind",
   "Prisma",
+  "TypeORM",
   "MongoDB",
   "Redux",
+  "Vuex",
+  "Pinia",
+  "NgRx",
   "GraphQL",
   "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
+  "FastAPI",
+  "Ionic",
+  "Jest",
+  "Cypress",
+  "AWS",
+  "Docker",
 ] as const;
