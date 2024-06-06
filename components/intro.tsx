@@ -99,7 +99,7 @@ export default function Intro() {
           target="_blank"
         >
            GitHub{" "}
-          <FaGithubSquare />
+          <FaGithubSquare className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
       </motion.div>
     </section>
