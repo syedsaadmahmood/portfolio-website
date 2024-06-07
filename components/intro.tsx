@@ -29,7 +29,7 @@ export default function Intro() {
           <p className="font-bold xl:text-[4rem] lg:text-[4rem] text-[2rem] mb-4">I'm Saad Mahmood.</p>
 
           <p className="font-medium mb-4">I'm full-stack developer with 8 years of experience</p>
-          <p className="font-medium text-2xl">I leverage Gen AI to boost work efficiency by 10 times.</p>
+          <p className="font-medium text-2xl">I leverage Generative AI to boost work efficiency.</p>
         </motion.h1>
 
         <div className="flex items-center justify-center">
