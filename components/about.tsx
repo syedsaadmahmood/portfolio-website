@@ -25,6 +25,7 @@ export default function About() {
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem.
         On the frontend, I am skilled in <span className="font-medium">JavaScript, TypeScript, React, Vue, and Angular</span>, excelling at converting designs into pixel-perfect HTML and building fast, SEO-optimized web applications with <span className="font-medium">NextJS and NuxtJS</span>.
+        On e-commerce, I have experience with <span className="font-medium">Shopify and Wordpress</span>.
         My backend expertise includes building robust systems with <span className="font-medium">Node.js, Express.js, Nest.js, Python, Django, FastAPI and Flask</span>, with experience in both <span className="font-medium">SQL and NoSQL</span> databases.
         I have also developed hybrid mobile apps using the <span className="font-medium">Ionic Framework</span> and worked on <span className="font-medium">Electron.js</span> for desktop application development. Additionally, I am experienced in unit and end-to-end testing using <span className="font-medium">Jest and Cypress</span>, and have DevOps experience with <span className="font-medium">AWS, Azure, Docker, and Nginx</span>. I am always looking to learn new technologies
       </p>

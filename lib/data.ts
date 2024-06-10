@@ -8,6 +8,8 @@ import futbala from "@/public/futbala.png";
 import clairk from "@/public/clairk.png";
 import circadiance from "@/public/circadiance.jpeg";
 import ideawake from "@/public/ideawake.png";
+import ms from "@/public/ms.png";
+import js from "@/public/js.png";
 
 export const links = [
   {
@@ -75,16 +77,18 @@ export const projectsData = [
   {
     title: "Romingo",
     description:
-      "I worked as a Full Stack Developer on this pet-friendly hotel booking platform on Listing Page, Detail Page, Booking Page, Mobile Responsiveness, and Admin Panel.",
+      "I worked as a full-stack developer for a pet-friendly hotel booking platform, focusing on the Listing Page, Detail Page, Booking Page, Mobile Responsiveness, and Admin Panel.",
     tags: ["React", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind", "Prisma", "GraphQL"],
     imageUrl: romingo,
+    projectUrl: "https://romingo.com",
   },
   {
     title: "Digital Policy Alert",
     description:
-      "I worked as a Full Stack Developer on this monitoring web app. It shows the latest digital policy news and updates. It has features like Graphs, Filter, and Auth.",
+      "I worked as a Full Stack Developer on this monitoring web app. It shows the latest digital policy news and updates. It has features like Complex Graphs, Filter, and Auth.",
     tags: ["Vue", "Nuxt.js", "Tailwind CSS", "Vuex", "Python", "Django", "PostgreSQL"],
     imageUrl: dpa,
+    projectUrl: "https://digitalpolicyalert.org",
   },
   {
     title: "Simply Stakeholder",
@@ -92,6 +96,7 @@ export const projectsData = [
       "I collaborated with Simply Stakeholders to create SaaS stakeholder management software with features of Listing, Graphs, Reporting, Forms and, Socket.io.",
     tags: ["Angular", "TypeScript", "Material UI", "Jest", "Azure", "Progressive Wep App (PWA)"],
     imageUrl: sstk,
+    projectUrl: "https://simplystakeholders.com",
   },
   {
     title: "CLaiRK | Generative AI Chatbot",
@@ -99,6 +104,7 @@ export const projectsData = [
       "CLaiRK is a comprehensive tool that will help navigate the rapidly changing landscape of artificial intelligence rules. It is a chatbot that can answer questions about AI rules and regulations.",
     tags: ["Generative AI", "Open AI", "LLM", "RAG", "Vue", "FastAPI"],
     imageUrl: clairk,
+    projectUrl: "https://clairk.digitalpolicyalert.org",
   },
   {
     title: "Futbala",
@@ -106,6 +112,7 @@ export const projectsData = [
       "Futbala is a fantasy football management experience. I worked as a sole Frontend Developer for developing the Minimum viable product (MVP) which I completed in 4 months.",
     tags: ["Vue", "TypeScript", "tailwind CSS", "Pinia", "Minimum viable product (MVP)"],
     imageUrl: futbala,
+    projectUrl: "https://dev-app.futbala.com",
   },
   {
     title: "Circadiance",
@@ -113,13 +120,31 @@ export const projectsData = [
       "Circadiance, a Synergy Cloud software allows clinicians to remotely monitor infants. I worked as a Full Stack Developer on features like data management, Reporting, and DB architecture.",
     tags: ["Angular", "TypeScript", "Python", "Django", "Celery", "PostgreSQL", "Docker", "AWS"],
     imageUrl: circadiance,
+    projectUrl: "https://www.circadiance.com/synergycloud",
   },
   {
     title: "Ideawake",
     description:
-      " I worked as a Full Stack Developer in making the idea mature. It is an easy-to-use, highly configurable idea management platform that makes it easy to capture, evaluate, and take action on ideas.",
+      "I worked as a Full Stack Developer in making the idea mature. It is an easy-to-use, highly configurable idea management platform that makes it easy to capture, evaluate, and take action on ideas.",
     tags: ["React", "TypeScript", "Node.js", "Nest.js", "PostgreSQL", "AWS"],
     imageUrl: ideawake,
+    projectUrl: "https://www.ideawake.com",
+  },
+  {
+    title: "JootiShooti",
+    description:
+      "I worked as a web developer creating an e-commerce website for JootiShooti. It is a platform for hand-crafted footwear for women, using the best materials and finest craftsmanship.",
+    tags: ["WordPress", "WordPress Plugins", "PHP", "Stripe"],
+    imageUrl: js,
+    projectUrl: "https://jootishooti.com",
+  },
+  {
+    title: "Minimal Space",
+    description:
+      "I worked as a web developer, creating and managing an e-commerce website for Minimal Space. It is a platform for selling high-quality furniture and home decor, featuring modern and minimalist designs.",
+    tags: ["Shopify", "Shopify Plugins", "Stripe", "Chatbot"],
+    imageUrl: ms,
+    projectUrl: "https://www.minimalspace.shop",
   },
 ] as const;
 
@@ -131,9 +156,12 @@ export const skillsData = [
   "Angular",
   "Next.js",
   "Nuxt.js",
+  "WordPress",
+  "Shopify",
   "Node.js",
   "Git",
   "Tailwind",
+  "Material UI",
   "Prisma",
   "TypeORM",
   "MongoDB",
@@ -148,6 +176,9 @@ export const skillsData = [
   "Python",
   "Django",
   "FastAPI",
+  "OpenAI",
+  "LLM",
+  "Hugging Face",
   "Ionic",
   "Jest",
   "Cypress",
