@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
        After graduating with a bachelor degree in{" "}
-        <span className="font-medium">Computer Science</span>. I have worked in the industry for 4 years before becoming a full-time freelancer{" "}
+        <span className="font-medium">Computer Science</span>. I have worked in the industry for 4 years before becoming a full-time freelancer.{" "}
         My favorite part of programming is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem.
